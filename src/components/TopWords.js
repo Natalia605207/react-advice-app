@@ -1,4 +1,4 @@
-import image from './assets/bored.jpg';
+import image from '../assets/bored.jpg';
 
 function TopWords() {
     return <div>

@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import './App.css';
-import TopWords from "./TopWords";
-import Button from "./Button";
-import BottomPart from "./BottomPart";
+import TopWords from "./components/TopWords";
+import Button from "./components/Button";
+import BottomPart from "./components/BottomPart";
 
 function App() {
 

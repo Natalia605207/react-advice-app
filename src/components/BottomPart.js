@@ -1,4 +1,4 @@
-import happy from './assets/happy.jpg';
+import happy from '../assets/happy.jpg';
 
 function BottomPart() {
     return <div>
