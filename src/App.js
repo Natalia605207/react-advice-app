@@ -15,7 +15,7 @@ function App() {
   },[])
 
   const getAdvice = async () => {
-    const response = await fetch(`http://bored.api.lewagon.com/api/activity/`);
+    const response = await fetch(`https://bored.api.lewagon.com/api/activity/`);
     const data = await response.json();
     setActivity(data.activity);
     setActivityType(data.type);
